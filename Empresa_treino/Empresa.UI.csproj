@@ -88,5 +88,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Empresa.Db\Empresa.Db.csproj">
+      <Project>{cd968909-32b1-4464-82ab-ef135d44ccf9}</Project>
+      <Name>Empresa.Db</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Empresa.Models\Empresa.Models.csproj">
+      <Project>{ddf0c062-87e5-4889-8a63-f1b9cf47ffa5}</Project>
+      <Name>Empresa.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

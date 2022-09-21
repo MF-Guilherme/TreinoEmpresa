@@ -49,6 +49,7 @@ namespace Empresa_treino
             this.EmailTextBox = new System.Windows.Forms.TextBox();
             this.TelefoneTextBox = new System.Windows.Forms.TextBox();
             this.ClientesDataGridView = new System.Windows.Forms.DataGridView();
+            this.VoltarButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.DataGridPanel.SuspendLayout();
@@ -60,31 +61,31 @@ namespace Empresa_treino
             // 
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 304);
+            this.panel1.Location = new System.Drawing.Point(10, 294);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(623, 42);
+            this.panel1.Size = new System.Drawing.Size(624, 42);
             this.panel1.TabIndex = 0;
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flowLayoutPanel1.Controls.Add(this.IncluirButton);
             this.flowLayoutPanel1.Controls.Add(this.Alterar_Button);
             this.flowLayoutPanel1.Controls.Add(this.ExcluirButton);
             this.flowLayoutPanel1.Controls.Add(this.ConfirmarIncluirButton);
             this.flowLayoutPanel1.Controls.Add(this.ConfirmarAlterarButton);
             this.flowLayoutPanel1.Controls.Add(this.ConfirmarExcluirButton);
+            this.flowLayoutPanel1.Controls.Add(this.VoltarButton);
             this.flowLayoutPanel1.Controls.Add(this.SairButton);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(7, 7, 0, 0);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(623, 42);
+            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(7, 9, 0, 0);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(624, 42);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // IncluirButton
             // 
-            this.IncluirButton.Location = new System.Drawing.Point(10, 10);
+            this.IncluirButton.Location = new System.Drawing.Point(10, 12);
             this.IncluirButton.Name = "IncluirButton";
             this.IncluirButton.Size = new System.Drawing.Size(75, 23);
             this.IncluirButton.TabIndex = 0;
@@ -93,7 +94,7 @@ namespace Empresa_treino
             // 
             // Alterar_Button
             // 
-            this.Alterar_Button.Location = new System.Drawing.Point(91, 10);
+            this.Alterar_Button.Location = new System.Drawing.Point(91, 12);
             this.Alterar_Button.Name = "Alterar_Button";
             this.Alterar_Button.Size = new System.Drawing.Size(75, 23);
             this.Alterar_Button.TabIndex = 1;
@@ -102,7 +103,7 @@ namespace Empresa_treino
             // 
             // ExcluirButton
             // 
-            this.ExcluirButton.Location = new System.Drawing.Point(172, 10);
+            this.ExcluirButton.Location = new System.Drawing.Point(172, 12);
             this.ExcluirButton.Name = "ExcluirButton";
             this.ExcluirButton.Size = new System.Drawing.Size(75, 23);
             this.ExcluirButton.TabIndex = 2;
@@ -111,16 +112,16 @@ namespace Empresa_treino
             // 
             // ConfirmarIncluirButton
             // 
-            this.ConfirmarIncluirButton.Location = new System.Drawing.Point(253, 10);
+            this.ConfirmarIncluirButton.Location = new System.Drawing.Point(253, 12);
             this.ConfirmarIncluirButton.Name = "ConfirmarIncluirButton";
             this.ConfirmarIncluirButton.Size = new System.Drawing.Size(75, 23);
-            this.ConfirmarIncluirButton.TabIndex = 3;
+            this.ConfirmarIncluirButton.TabIndex = 5;
             this.ConfirmarIncluirButton.Text = "Gravar";
             this.ConfirmarIncluirButton.UseVisualStyleBackColor = true;
             // 
             // ConfirmarAlterarButton
             // 
-            this.ConfirmarAlterarButton.Location = new System.Drawing.Point(334, 10);
+            this.ConfirmarAlterarButton.Location = new System.Drawing.Point(334, 12);
             this.ConfirmarAlterarButton.Name = "ConfirmarAlterarButton";
             this.ConfirmarAlterarButton.Size = new System.Drawing.Size(75, 23);
             this.ConfirmarAlterarButton.TabIndex = 4;
@@ -129,7 +130,7 @@ namespace Empresa_treino
             // 
             // ConfirmarExcluirButton
             // 
-            this.ConfirmarExcluirButton.Location = new System.Drawing.Point(415, 10);
+            this.ConfirmarExcluirButton.Location = new System.Drawing.Point(415, 12);
             this.ConfirmarExcluirButton.Name = "ConfirmarExcluirButton";
             this.ConfirmarExcluirButton.Size = new System.Drawing.Size(115, 23);
             this.ConfirmarExcluirButton.TabIndex = 5;
@@ -138,7 +139,7 @@ namespace Empresa_treino
             // 
             // SairButton
             // 
-            this.SairButton.Location = new System.Drawing.Point(536, 10);
+            this.SairButton.Location = new System.Drawing.Point(10, 41);
             this.SairButton.Name = "SairButton";
             this.SairButton.Size = new System.Drawing.Size(75, 23);
             this.SairButton.TabIndex = 6;
@@ -150,7 +151,7 @@ namespace Empresa_treino
             this.DataGridPanel.Controls.Add(this.ClientesDataGridView);
             this.DataGridPanel.Location = new System.Drawing.Point(355, 44);
             this.DataGridPanel.Name = "DataGridPanel";
-            this.DataGridPanel.Size = new System.Drawing.Size(261, 240);
+            this.DataGridPanel.Size = new System.Drawing.Size(279, 240);
             this.DataGridPanel.TabIndex = 1;
             // 
             // PreenchimentoPanel
@@ -163,9 +164,9 @@ namespace Empresa_treino
             this.PreenchimentoPanel.Controls.Add(this.label3);
             this.PreenchimentoPanel.Controls.Add(this.label2);
             this.PreenchimentoPanel.Controls.Add(this.label1);
-            this.PreenchimentoPanel.Location = new System.Drawing.Point(0, 44);
+            this.PreenchimentoPanel.Location = new System.Drawing.Point(11, 44);
             this.PreenchimentoPanel.Name = "PreenchimentoPanel";
-            this.PreenchimentoPanel.Size = new System.Drawing.Size(349, 240);
+            this.PreenchimentoPanel.Size = new System.Drawing.Size(338, 240);
             this.PreenchimentoPanel.TabIndex = 2;
             // 
             // label1
@@ -209,7 +210,7 @@ namespace Empresa_treino
             this.IdTextBox.Location = new System.Drawing.Point(92, 61);
             this.IdTextBox.Name = "IdTextBox";
             this.IdTextBox.Size = new System.Drawing.Size(39, 20);
-            this.IdTextBox.TabIndex = 4;
+            this.IdTextBox.TabIndex = 1;
             this.IdTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // NomeTextBox
@@ -217,21 +218,21 @@ namespace Empresa_treino
             this.NomeTextBox.Location = new System.Drawing.Point(92, 93);
             this.NomeTextBox.Name = "NomeTextBox";
             this.NomeTextBox.Size = new System.Drawing.Size(237, 20);
-            this.NomeTextBox.TabIndex = 5;
+            this.NomeTextBox.TabIndex = 2;
             // 
             // EmailTextBox
             // 
             this.EmailTextBox.Location = new System.Drawing.Point(92, 123);
             this.EmailTextBox.Name = "EmailTextBox";
             this.EmailTextBox.Size = new System.Drawing.Size(237, 20);
-            this.EmailTextBox.TabIndex = 6;
+            this.EmailTextBox.TabIndex = 3;
             // 
             // TelefoneTextBox
             // 
             this.TelefoneTextBox.Location = new System.Drawing.Point(92, 156);
             this.TelefoneTextBox.Name = "TelefoneTextBox";
             this.TelefoneTextBox.Size = new System.Drawing.Size(111, 20);
-            this.TelefoneTextBox.TabIndex = 7;
+            this.TelefoneTextBox.TabIndex = 4;
             // 
             // ClientesDataGridView
             // 
@@ -239,20 +240,31 @@ namespace Empresa_treino
             this.ClientesDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ClientesDataGridView.Location = new System.Drawing.Point(0, 0);
             this.ClientesDataGridView.Name = "ClientesDataGridView";
-            this.ClientesDataGridView.Size = new System.Drawing.Size(261, 240);
+            this.ClientesDataGridView.Size = new System.Drawing.Size(279, 240);
             this.ClientesDataGridView.TabIndex = 0;
+            // 
+            // VoltarButton
+            // 
+            this.VoltarButton.Location = new System.Drawing.Point(536, 12);
+            this.VoltarButton.Name = "VoltarButton";
+            this.VoltarButton.Size = new System.Drawing.Size(75, 23);
+            this.VoltarButton.TabIndex = 6;
+            this.VoltarButton.Text = "Voltar";
+            this.VoltarButton.UseVisualStyleBackColor = true;
             // 
             // ClienteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(623, 346);
+            this.ClientSize = new System.Drawing.Size(644, 346);
             this.Controls.Add(this.PreenchimentoPanel);
             this.Controls.Add(this.DataGridPanel);
             this.Controls.Add(this.panel1);
             this.Name = "ClienteForm";
+            this.Padding = new System.Windows.Forms.Padding(10);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clientes";
+            this.Load += new System.EventHandler(this.ClienteForm_Load);
             this.panel1.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.DataGridPanel.ResumeLayout(false);
@@ -285,5 +297,6 @@ namespace Empresa_treino
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button VoltarButton;
     }
 }

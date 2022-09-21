@@ -1,0 +1,9 @@
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Db\bin\Debug\Empresa.Db.dll
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Db\bin\Debug\Empresa.Db.pdb
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Db\bin\Debug\Empresa.Models.dll
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Db\bin\Debug\Empresa.Models.pdb
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Db\obj\Debug\Empresa.Db.csprojAssemblyReference.cache
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Db\obj\Debug\Empresa.Db.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Db\obj\Debug\Empresa.Db.csproj.CopyComplete
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Db\obj\Debug\Empresa.Db.dll
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Db\obj\Debug\Empresa.Db.pdb

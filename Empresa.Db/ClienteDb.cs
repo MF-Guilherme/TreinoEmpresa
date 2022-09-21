@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace Empresa.Db
 {
-    class ClienteDb
+    public class ClienteDb
     {
         public void Incluir(Cliente cliente)
         {

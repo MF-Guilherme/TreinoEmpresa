@@ -9,3 +9,8 @@ C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empre
 C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa_treino\obj\Debug\Empresa_treino.exe
 C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa_treino\obj\Debug\Empresa_treino.pdb
 C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa_treino\obj\Debug\Empresa_treino.ClienteForm.resources
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa_treino\bin\Debug\Empresa.Db.dll
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa_treino\bin\Debug\Empresa.Models.dll
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa_treino\bin\Debug\Empresa.Db.pdb
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa_treino\bin\Debug\Empresa.Models.pdb
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa_treino\obj\Debug\Empresa.UI.csproj.CopyComplete
