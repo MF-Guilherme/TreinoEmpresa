@@ -27,7 +27,7 @@ namespace Empresa.Db
             con.Close();
         }
 
-        private void Alterar(Cliente cliente)
+        public void Alterar(Cliente cliente)
         {
             string comandoSql = @"UPDATE Cliente SET Nome = @Nome, Email = @Email, Telefone = @Telefone WHERE Id = @Id";
 
@@ -43,7 +43,7 @@ namespace Empresa.Db
             con.Close();
         }
 
-        private void Excluir(int id)
+        public void Excluir(int id)
         {
             string comandoSql = "DELETE Cliente WHERE Id = @Id";
 
@@ -57,7 +57,35 @@ namespace Empresa.Db
             con.Close();
         }
 
+        public List<Cliente> Listar()
+        {
+            string comandoSql = @"SELECT Id, Nome, Email, Telefone FROM Cliente";
 
+            var con = new SqlConnection(Db.Conexao);
+            var cmd = new SqlCommand(comandoSql, con);
+
+            List<Cliente> lista = new List<Cliente>();
+
+            con.Open();
+
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                var cliente = new Cliente();
+
+                cliente.Id = Convert.ToInt32(reader["Id"]);
+                cliente.Nome = reader["Nome"].ToString();
+                cliente.Email = reader["Email"].ToString();
+                cliente.Telefone = reader["Telefone"].ToString();
+
+                lista.Add(cliente);
+            }
+
+            reader.Close();
+            con.Close();
+            return lista;
+        }
 
     }
 }
