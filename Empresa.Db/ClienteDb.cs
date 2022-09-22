@@ -29,11 +29,12 @@ namespace Empresa.Db
 
         public void Alterar(Cliente cliente)
         {
-            string comandoSql = @"UPDATE Cliente SET Nome = @Nome, Email = @Email, Telefone = @Telefone WHERE Id = @Id";
+            string comandoSql = @"UPDATE Cliente SET Id = @Id, Nome = @Nome, Email = @Email, Telefone = @Telefone WHERE Id = @Id";
 
             var con = new SqlConnection(Db.Conexao);
             var cmd = new SqlCommand(comandoSql, con);
 
+            cmd.Parameters.AddWithValue("@Id", cliente.Id);
             cmd.Parameters.AddWithValue("@Nome", cliente.Nome);
             cmd.Parameters.AddWithValue("@Email", cliente.Email);
             cmd.Parameters.AddWithValue("@Telefone", cliente.Telefone);

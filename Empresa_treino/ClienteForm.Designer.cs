@@ -37,24 +37,24 @@ namespace Empresa_treino
             this.ConfirmarIncluirButton = new System.Windows.Forms.Button();
             this.ConfirmarAlterarButton = new System.Windows.Forms.Button();
             this.ConfirmarExcluirButton = new System.Windows.Forms.Button();
+            this.CancelarButton = new System.Windows.Forms.Button();
             this.SairButton = new System.Windows.Forms.Button();
             this.DataGridPanel = new System.Windows.Forms.Panel();
-            this.PreenchimentoPanel = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.IdTextBox = new System.Windows.Forms.TextBox();
-            this.NomeTextBox = new System.Windows.Forms.TextBox();
-            this.EmailTextBox = new System.Windows.Forms.TextBox();
-            this.TelefoneTextBox = new System.Windows.Forms.TextBox();
             this.ClientesDataGridView = new System.Windows.Forms.DataGridView();
-            this.VoltarButton = new System.Windows.Forms.Button();
+            this.PreenchimentoPanel = new System.Windows.Forms.Panel();
+            this.TelefoneTextBox = new System.Windows.Forms.TextBox();
+            this.EmailTextBox = new System.Windows.Forms.TextBox();
+            this.NomeTextBox = new System.Windows.Forms.TextBox();
+            this.IdTextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.DataGridPanel.SuspendLayout();
-            this.PreenchimentoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ClientesDataGridView)).BeginInit();
+            this.PreenchimentoPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -63,7 +63,7 @@ namespace Empresa_treino
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(10, 294);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(624, 42);
+            this.panel1.Size = new System.Drawing.Size(702, 42);
             this.panel1.TabIndex = 0;
             // 
             // flowLayoutPanel1
@@ -74,13 +74,13 @@ namespace Empresa_treino
             this.flowLayoutPanel1.Controls.Add(this.ConfirmarIncluirButton);
             this.flowLayoutPanel1.Controls.Add(this.ConfirmarAlterarButton);
             this.flowLayoutPanel1.Controls.Add(this.ConfirmarExcluirButton);
-            this.flowLayoutPanel1.Controls.Add(this.VoltarButton);
+            this.flowLayoutPanel1.Controls.Add(this.CancelarButton);
             this.flowLayoutPanel1.Controls.Add(this.SairButton);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(7, 9, 0, 0);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(624, 42);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(702, 42);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // IncluirButton
@@ -91,6 +91,7 @@ namespace Empresa_treino
             this.IncluirButton.TabIndex = 0;
             this.IncluirButton.Text = "Incluir";
             this.IncluirButton.UseVisualStyleBackColor = true;
+            this.IncluirButton.Click += new System.EventHandler(this.IncluirButton_Click);
             // 
             // Alterar_Button
             // 
@@ -100,6 +101,7 @@ namespace Empresa_treino
             this.Alterar_Button.TabIndex = 1;
             this.Alterar_Button.Text = "Alterar";
             this.Alterar_Button.UseVisualStyleBackColor = true;
+            this.Alterar_Button.Click += new System.EventHandler(this.Alterar_Button_Click);
             // 
             // ExcluirButton
             // 
@@ -109,6 +111,7 @@ namespace Empresa_treino
             this.ExcluirButton.TabIndex = 2;
             this.ExcluirButton.Text = "Excluir";
             this.ExcluirButton.UseVisualStyleBackColor = true;
+            this.ExcluirButton.Click += new System.EventHandler(this.ExcluirButton_Click);
             // 
             // ConfirmarIncluirButton
             // 
@@ -118,6 +121,7 @@ namespace Empresa_treino
             this.ConfirmarIncluirButton.TabIndex = 5;
             this.ConfirmarIncluirButton.Text = "Gravar";
             this.ConfirmarIncluirButton.UseVisualStyleBackColor = true;
+            this.ConfirmarIncluirButton.Click += new System.EventHandler(this.ConfirmarIncluirButton_Click);
             // 
             // ConfirmarAlterarButton
             // 
@@ -127,6 +131,7 @@ namespace Empresa_treino
             this.ConfirmarAlterarButton.TabIndex = 4;
             this.ConfirmarAlterarButton.Text = "Alterar";
             this.ConfirmarAlterarButton.UseVisualStyleBackColor = true;
+            this.ConfirmarAlterarButton.Click += new System.EventHandler(this.ConfirmarAlterarButton_Click);
             // 
             // ConfirmarExcluirButton
             // 
@@ -136,23 +141,44 @@ namespace Empresa_treino
             this.ConfirmarExcluirButton.TabIndex = 5;
             this.ConfirmarExcluirButton.Text = "Confirmar Exclusão";
             this.ConfirmarExcluirButton.UseVisualStyleBackColor = true;
+            this.ConfirmarExcluirButton.Click += new System.EventHandler(this.ConfirmarExcluirButton_Click);
+            // 
+            // CancelarButton
+            // 
+            this.CancelarButton.Location = new System.Drawing.Point(536, 12);
+            this.CancelarButton.Name = "CancelarButton";
+            this.CancelarButton.Size = new System.Drawing.Size(75, 23);
+            this.CancelarButton.TabIndex = 6;
+            this.CancelarButton.Text = "Cancelar";
+            this.CancelarButton.UseVisualStyleBackColor = true;
+            this.CancelarButton.Click += new System.EventHandler(this.CancelarButton_Click);
             // 
             // SairButton
             // 
-            this.SairButton.Location = new System.Drawing.Point(10, 41);
+            this.SairButton.Location = new System.Drawing.Point(617, 12);
             this.SairButton.Name = "SairButton";
             this.SairButton.Size = new System.Drawing.Size(75, 23);
             this.SairButton.TabIndex = 6;
             this.SairButton.Text = "Sair";
             this.SairButton.UseVisualStyleBackColor = true;
+            this.SairButton.Click += new System.EventHandler(this.SairButton_Click);
             // 
             // DataGridPanel
             // 
             this.DataGridPanel.Controls.Add(this.ClientesDataGridView);
             this.DataGridPanel.Location = new System.Drawing.Point(355, 44);
             this.DataGridPanel.Name = "DataGridPanel";
-            this.DataGridPanel.Size = new System.Drawing.Size(279, 240);
+            this.DataGridPanel.Size = new System.Drawing.Size(357, 240);
             this.DataGridPanel.TabIndex = 1;
+            // 
+            // ClientesDataGridView
+            // 
+            this.ClientesDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ClientesDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ClientesDataGridView.Location = new System.Drawing.Point(0, 0);
+            this.ClientesDataGridView.Name = "ClientesDataGridView";
+            this.ClientesDataGridView.Size = new System.Drawing.Size(357, 240);
+            this.ClientesDataGridView.TabIndex = 0;
             // 
             // PreenchimentoPanel
             // 
@@ -169,32 +195,34 @@ namespace Empresa_treino
             this.PreenchimentoPanel.Size = new System.Drawing.Size(338, 240);
             this.PreenchimentoPanel.TabIndex = 2;
             // 
-            // label1
+            // TelefoneTextBox
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(56, 64);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(19, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Id:";
+            this.TelefoneTextBox.Location = new System.Drawing.Point(92, 156);
+            this.TelefoneTextBox.Name = "TelefoneTextBox";
+            this.TelefoneTextBox.Size = new System.Drawing.Size(111, 20);
+            this.TelefoneTextBox.TabIndex = 4;
             // 
-            // label2
+            // EmailTextBox
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(37, 96);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nome:";
+            this.EmailTextBox.Location = new System.Drawing.Point(92, 123);
+            this.EmailTextBox.Name = "EmailTextBox";
+            this.EmailTextBox.Size = new System.Drawing.Size(237, 20);
+            this.EmailTextBox.TabIndex = 3;
             // 
-            // label3
+            // NomeTextBox
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(40, 126);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Email:";
+            this.NomeTextBox.Location = new System.Drawing.Point(92, 93);
+            this.NomeTextBox.Name = "NomeTextBox";
+            this.NomeTextBox.Size = new System.Drawing.Size(237, 20);
+            this.NomeTextBox.TabIndex = 2;
+            // 
+            // IdTextBox
+            // 
+            this.IdTextBox.Location = new System.Drawing.Point(92, 61);
+            this.IdTextBox.Name = "IdTextBox";
+            this.IdTextBox.Size = new System.Drawing.Size(39, 20);
+            this.IdTextBox.TabIndex = 1;
+            this.IdTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label4
             // 
@@ -205,58 +233,38 @@ namespace Empresa_treino
             this.label4.TabIndex = 3;
             this.label4.Text = "Telefone:";
             // 
-            // IdTextBox
+            // label3
             // 
-            this.IdTextBox.Location = new System.Drawing.Point(92, 61);
-            this.IdTextBox.Name = "IdTextBox";
-            this.IdTextBox.Size = new System.Drawing.Size(39, 20);
-            this.IdTextBox.TabIndex = 1;
-            this.IdTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(40, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Email:";
             // 
-            // NomeTextBox
+            // label2
             // 
-            this.NomeTextBox.Location = new System.Drawing.Point(92, 93);
-            this.NomeTextBox.Name = "NomeTextBox";
-            this.NomeTextBox.Size = new System.Drawing.Size(237, 20);
-            this.NomeTextBox.TabIndex = 2;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(37, 96);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Nome:";
             // 
-            // EmailTextBox
+            // label1
             // 
-            this.EmailTextBox.Location = new System.Drawing.Point(92, 123);
-            this.EmailTextBox.Name = "EmailTextBox";
-            this.EmailTextBox.Size = new System.Drawing.Size(237, 20);
-            this.EmailTextBox.TabIndex = 3;
-            // 
-            // TelefoneTextBox
-            // 
-            this.TelefoneTextBox.Location = new System.Drawing.Point(92, 156);
-            this.TelefoneTextBox.Name = "TelefoneTextBox";
-            this.TelefoneTextBox.Size = new System.Drawing.Size(111, 20);
-            this.TelefoneTextBox.TabIndex = 4;
-            // 
-            // ClientesDataGridView
-            // 
-            this.ClientesDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ClientesDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ClientesDataGridView.Location = new System.Drawing.Point(0, 0);
-            this.ClientesDataGridView.Name = "ClientesDataGridView";
-            this.ClientesDataGridView.Size = new System.Drawing.Size(279, 240);
-            this.ClientesDataGridView.TabIndex = 0;
-            // 
-            // VoltarButton
-            // 
-            this.VoltarButton.Location = new System.Drawing.Point(536, 12);
-            this.VoltarButton.Name = "VoltarButton";
-            this.VoltarButton.Size = new System.Drawing.Size(75, 23);
-            this.VoltarButton.TabIndex = 6;
-            this.VoltarButton.Text = "Voltar";
-            this.VoltarButton.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(56, 64);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(19, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Id:";
             // 
             // ClienteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 346);
+            this.ClientSize = new System.Drawing.Size(722, 346);
             this.Controls.Add(this.PreenchimentoPanel);
             this.Controls.Add(this.DataGridPanel);
             this.Controls.Add(this.panel1);
@@ -268,9 +276,9 @@ namespace Empresa_treino
             this.panel1.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.DataGridPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ClientesDataGridView)).EndInit();
             this.PreenchimentoPanel.ResumeLayout(false);
             this.PreenchimentoPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ClientesDataGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -297,6 +305,6 @@ namespace Empresa_treino
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button VoltarButton;
+        private System.Windows.Forms.Button CancelarButton;
     }
 }
