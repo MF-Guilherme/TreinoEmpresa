@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ClienteDb.cs" />
     <Compile Include="Db.cs" />
+    <Compile Include="FuncionarioDb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

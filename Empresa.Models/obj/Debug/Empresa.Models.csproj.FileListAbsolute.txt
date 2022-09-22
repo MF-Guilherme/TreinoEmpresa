@@ -3,3 +3,4 @@ C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empre
 C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Models\obj\Debug\Empresa.Models.csproj.CoreCompileInputs.cache
 C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Models\obj\Debug\Empresa.Models.dll
 C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Models\obj\Debug\Empresa.Models.pdb
+C:\Users\guilherme.ferreira\Desktop\Backup\IMPACTA\Nanodegree 1\POO\Treino Empresa\Empresa_treino\Empresa.Models\obj\Debug\Empresa.Models.csprojAssemblyReference.cache

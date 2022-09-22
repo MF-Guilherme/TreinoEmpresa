@@ -22,5 +22,11 @@ namespace Empresa_treino
             var cl = new ClienteForm();
             cl.ShowDialog();
         }
+
+        private void funcionáriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new FuncionarioForm();
+            f.ShowDialog();
+        }
     }
 }
